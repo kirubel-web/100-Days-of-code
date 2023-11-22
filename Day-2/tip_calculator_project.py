@@ -11,6 +11,6 @@ elif tip == 12:
 elif tip == 15:
     totall = ((bill * 0.15) + bill) / people
 
-totall = round(totall, 2)  # or round(total, 2)
+totall = round(totall, 2)  # or __round__(2)
 totall = "{:.2f}".format(totall)
 print(f'Each person should pay: ${totall}')
