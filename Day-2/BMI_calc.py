@@ -7,4 +7,4 @@ height = float(height)
 weight = float(weight)
 bmi = weight / (height ** 2)
 
-print(int(bmi))
+print(int(bmi))  # or i can use floor division for output
