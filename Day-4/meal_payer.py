@@ -1,10 +1,12 @@
 import random
 
+# choice() cant be used
 
 names_string = input("Give me everybody's names, separated by a comma. ")
 names = names_string.split(", ")
 
 payer_list = []
+
 for name in names:
     payer_list.append(name)
 
