@@ -1,4 +1,4 @@
-# Average height calculator with out using len function and sum 
+# Average height calculator with out using len function and sum
 
 student_heights = input("Input a list of student heights ").split()
 for n in range(0, len(student_heights)):
@@ -13,4 +13,5 @@ for i in student_heights:
     counter += 1
 
 Average = sum / counter
+
 print(f'Average height = {int(Average)}')
